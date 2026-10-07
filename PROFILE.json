@@ -1,0 +1,21 @@
+{
+  "model_hf": "ggml-org/Qwen3-TTS-12Hz-1.7B-Base-GGUF:Q8_0",
+  "arguments": [
+    "-ngl",
+    "0",
+    "--no-mmproj-offload",
+    "-t",
+    "4",
+    "-n",
+    "1500",
+    "--seed",
+    "42"
+  ],
+  "languages": [
+    "de",
+    "en"
+  ],
+  "scope": "documented old CPU profile; first -hf use may download model files; no fresh run",
+  "n_unit": "maximum audio frames, not words",
+  "new_narration": "separate pinned MOSS s44, not a Qwen output demo"
+}
