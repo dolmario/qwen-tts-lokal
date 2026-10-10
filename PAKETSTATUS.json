@@ -1,0 +1,8 @@
+{
+  "status": "tested_companion_revision",
+  "audio_language": "en",
+  "subtitle_language": "de",
+  "published_to_youtube": false,
+  "complete_film_listening": false,
+  "tested": "Pinned Qwen Windows runtime downloaded/extracted; original English MOSS voice 55 chosen by user; 102 new English paragraphs produced with its original direct GPU loader, pinned model/codec and synthetic reference. Existing working AMD Python environment, not a fresh GPU PyTorch installation."
+}

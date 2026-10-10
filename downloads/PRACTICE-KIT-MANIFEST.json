@@ -1,0 +1,127 @@
+{
+  "repo": "qwen-tts-lokal",
+  "created": "2026-10-10T23:25:20.854745+02:00",
+  "zip": "C:\\Users\\JT\\Desktop\\DOLMARIO-NACHT-EN-20261010\\repos\\qwen-tts-lokal\\downloads\\PRACTICE-KIT.zip",
+  "sha256": "5eb6603a4c05c5f37b9b76f453844f8da63b52e3ae3fce1d2ed69d3bef1936bf",
+  "bytes": 746710,
+  "zip_crc_passed": true,
+  "all_member_sha256_passed": true,
+  "members": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d5973f9a546f1851041bbef4b6468a88c4946ead430f4135aa5ec69eef2ef97",
+      "bytes": 38
+    },
+    {
+      "path": "ARCHIV/README-REPO-ERSTELLUNG.md",
+      "sha256": "1aba2fa6525ca2530402d52b5a4672f788ce30c7d8e49e6645c6c9bd2eede89b",
+      "bytes": 142
+    },
+    {
+      "path": "BUILD-SOURCE.json",
+      "sha256": "604d15bd700adfb0d5f7237fdfc87d0ae878146ba1a1b95c2a7fbead44e250d9",
+      "bytes": 750
+    },
+    {
+      "path": "DE/START.md",
+      "sha256": "f7faa85cacf0837c0652f8bb94b4b152a91920bec68838b4b7134b6535395810",
+      "bytes": 5113
+    },
+    {
+      "path": "EN/START.md",
+      "sha256": "97a862d1d66461e4d473a40a02b8f5271131ea9a50dd773b89aa345f228f868f",
+      "bytes": 4351
+    },
+    {
+      "path": "HOERPROTOKOLL.csv",
+      "sha256": "0b0dd0a83a6cd1d1e175dab3822251f01087829ed7a89a68674f8e007e2376d7",
+      "bytes": 171
+    },
+    {
+      "path": "install_qwen.py",
+      "sha256": "90db18a4cde47acbf17470ce4fdc664e06e1f815063fab72ec2e5ca71f2d33b5",
+      "bytes": 1720
+    },
+    {
+      "path": "MOSS/ABSATZ-02-EN.txt",
+      "sha256": "edb9082d101eec6c7a2f68b2eeac846d7f2a360c01c85b7badbe09acfb8bb31d",
+      "bytes": 198
+    },
+    {
+      "path": "MOSS/moss_probe.py",
+      "sha256": "15fcbd49056078dcd30a563819ddee0fd8842a9e186fe9231a270a4ddb64e4de",
+      "bytes": 8549
+    },
+    {
+      "path": "MOSS/PROBE-DE.txt",
+      "sha256": "a8c78c3f909d088baf7ea81f11cd67fe03bc0572bdb94541f5fe1a39bae499d9",
+      "bytes": 169
+    },
+    {
+      "path": "MOSS/PROBE-EN.txt",
+      "sha256": "3f43140f7c30b7c8d63ab6803acd76920cc7b0feb608c341a8cfcc01a9579e3d",
+      "bytes": 250
+    },
+    {
+      "path": "MOSS/requirements-zusatz.txt",
+      "sha256": "4969f921513c580a15a3f2a48d4dd33477c7fba8f282b0666cc2533d2d415b0e",
+      "bytes": 196
+    },
+    {
+      "path": "MOSS/START-EN.md",
+      "sha256": "f1a36227c67a69c0fe907ccd1a52c54a5761ffca6aad2c978d832cd0313f6ab6",
+      "bytes": 3469
+    },
+    {
+      "path": "MOSS/START.md",
+      "sha256": "d5a7a3198fd16e3782cf59ff10a0f2b86248d1c84027c06366b93dd59384b7fe",
+      "bytes": 2746
+    },
+    {
+      "path": "MOSS/stimme-s44.wav",
+      "sha256": "6a7d0ca02cd5df50a376b3ec8df57deab9177da5a93100512138b03d3c0f6dd6",
+      "bytes": 1551404
+    },
+    {
+      "path": "MOSS/STIMME.json",
+      "sha256": "44d1fe0b6eea3975cb53df66a302108f7b82ed3138ca8de80051157b82dabdf4",
+      "bytes": 415
+    },
+    {
+      "path": "PAKETSTATUS.json",
+      "sha256": "62d80e58bbab7bc9344a1ea199da5baf94f66d02f88c5d054a68e1eaba1d1ba2",
+      "bytes": 484
+    },
+    {
+      "path": "PROBE-DE.txt",
+      "sha256": "dcf43e6cc39b876265427336d8df791a311e149686e8e9a67dd25e0632adffd5",
+      "bytes": 92
+    },
+    {
+      "path": "PROBE-EN.txt",
+      "sha256": "5bdbff1167c61b24005dedefe5a0e6464d5eef96b03011fec90dc244b208a398",
+      "bytes": 76
+    },
+    {
+      "path": "PROFILE.json",
+      "sha256": "75b36b9569f7fa4aa7676468d1c469e0418348ab872dd1f51b90add8ac7b8367",
+      "bytes": 471
+    },
+    {
+      "path": "QUELLEN.md",
+      "sha256": "27a954bb2a09cdc522e9148e2a6e30cbfc1cd303fe819f9b75ae4549e1202bab",
+      "bytes": 759
+    },
+    {
+      "path": "README.md",
+      "sha256": "de0aa4e071feb87ac5eb0415b481f1e843140dcf35e99ac865b466b455b8124b",
+      "bytes": 2155
+    },
+    {
+      "path": "VORBEREITEN-QWEN.ps1",
+      "sha256": "d618462fd32e5debb196f9a32e48824b4e61fd64ab419f61c82e4d98bc893e29",
+      "bytes": 2321
+    }
+  ],
+  "legacy_zips_preserved": true
+}

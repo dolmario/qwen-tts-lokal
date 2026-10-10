@@ -1,0 +1,9 @@
+{
+  "file": "stimme-s44.wav",
+  "sha256": "6a7d0ca02cd5df50a376b3ec8df57deab9177da5a93100512138b03d3c0f6dd6",
+  "origin": "Own synthetic MOSS output, seed 44; same reference used in completed production",
+  "private_person_recording": false,
+  "model": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
+  "model_revision": "be7766a6735b98bd793f7c79fb720b4d0f5d13b8",
+  "voice_reference_is_not_model_weights": true
+}

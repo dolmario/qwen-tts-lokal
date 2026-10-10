@@ -1,0 +1,1 @@
+You want to ask a question in your browser and generate the answer using your Nvidia card. We set up a local chat server with CUDA. You need no programming skills. This guide takes you from downloading the companion files to checking your own answer.
