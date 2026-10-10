@@ -1,27 +1,19 @@
-# Qwen3-TTS: eine eigene Stimme lokal vorbereiten
+# From Qwen3-TTS to MOSS: Generate Your Own Local Narration
 
-Dein erster kleiner Sprachversuch: eine erlaubte Referenzaufnahme wählen, einen vollständigen Satz vorbereiten und die tatsächliche WAV-Ausgabe mit einem Hörprotokoll prüfen. Das Lernpaket beschreibt unseren dokumentierten GGUF/CPU-Weg auf Windows. Ein neuer Clean-Install- oder Qwen-Lauf wird hier nicht behauptet.
+Download the current practice kit: [PRACTICE-KIT.zip](downloads/PRACTICE-KIT.zip).
 
-## Download / Downloads
+Download the [practice kit](downloads/PRACTICE-KIT.zip), open [MOSS/START-EN.md](MOSS/START-EN.md), and generate a complete English paragraph. The kit includes our own synthetic female voice reference, the speech runner, pinned model and codec revisions, and two sample texts. Keep the reference and generation settings when you change the text.
 
-| Sprache | Komplettes Begleitpaket | Anleitung |
-|---|---|---|
-| Deutsch | [QWEN-TTS-DE.zip](https://raw.githubusercontent.com/dolmario/qwen-tts-lokal/main/QWEN-TTS-DE.zip) | [DE/START.md](DE/START.md) |
-| English | [QWEN-TTS-EN.zip](https://raw.githubusercontent.com/dolmario/qwen-tts-lokal/main/QWEN-TTS-EN.zip) | [EN/START.md](EN/START.md) |
+The MOSS runner uses the direct GPU processor and codec construction from our local-server tutorial. It saves the WAV, input text, settings and measured durations together in a new output folder. A batch can reuse the loaded model for subsequent paragraphs. Our Windows EVO-X2 run used an existing working AMD PyTorch environment and produced 102 English paragraphs; follow the linked AMD installation guide for your GPU environment.
 
-Vollständig in einen neuen Ordner entpacken, dann START.md lesen. `VORBEREITEN-QWEN.ps1` schreibt nur einen Befehl für deine vorhandene EXE, Referenzaufnahme und Textdatei. Es startet nichts, erzeugt keine WAV und sendet keinHTTP. Das Skript und die erzeugten DE/EN-Befehle wurden geparst; Vorbereitung und Schutz vor Überschreiben wurden mit absichtlich nicht ausführbarer EXE und Referenz-Sentineldatei geprüft.
+We chose MOSS after listening to our local examples. The earlier [Qwen CPU workflow](EN/START.md) remains available. Its pinned official Windows runtime was downloaded and extracted in an isolated installation test. Supply your own suitable reference recording for that route; a person's recording is not bundled. These are two documented setups, rather than a general model ranking.
 
-Der später von dir bewusst ausgeführte Befehl verwendet `-hf` und kann fehlende Modellgewichte herunterladen. Die Modell- und Referenzrechte, Ressourcenprüfung und die Entscheidung zur tatsächlichen Ausführung bleiben getrennte Schritte. Runtime, Gewichte und Referenzstimme sind nicht in diesen ZIPs enthalten.
+Original projects: [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) and [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS).
 
-## Was du mitnimmst
+Test hardware: [GMKtec EVO-X2 / shop](https://de.gmktec.com/?ref=DolmarioAi) · advertisement / affiliate link.
 
-- b10621-Prerelease und vorhandene Dateiidentität prüfen: unsere ZIP und52vorhandenen Dateien wurden mit dem offiziellen SHA/Archiv verglichen.
-- Qwen3-TTS und Referenzstimme unterscheiden; die Referenz ist kein separates Sprachmodell.
-- Das historische CPU-Profil lesen: `-ngl0`, `--no-mmproj-offload`,4Threads, Seed42; `-n1500` begrenzt Audioframes, nicht Wörter.
-- Ganze kurze Sätze vergleichen und Zahlen, Wortenden, Pausen und Übergänge tatsächlich hören.
+## Deutsch
 
-Dieses Repository bleibt die Qwen3-TTS-Anleitung. Die Sprecherstimmen der neuen Filme (MOSS s44 und s77) sind synthetisch erzeugt, keine Aufnahmen privater Personen, und **keine Qwen-Ausgabe**; sie sind nicht Teil dieses Pakets. Andere AMD-/Mac-Neuinstallationen sind hier nicht getestet. [QUELLEN.md](QUELLEN.md) nennt die Originalquellen und den genauen Versionsstand.
+Mit [der MOSS-Anleitung](MOSS/START.md) einen vollständigen Absatz lokal erzeugen. Das Paket enthält unsere eigene synthetische Frauenstimme, Beispieltexte und den Python-Starter. Für weitere Texte bleiben Referenz und Einstellungen gleich; jede Ausgabe bekommt einen neuen Ordner mit Tondatei, Text und Messprotokoll.
 
-## English
-
-Prepare a short reference-based speech test with the documented Windows GGUF/CPU profile. Extract the English kit and read START.md. The preparation script writes a command only; no model is run and no audio is generated. Actual manual execution may download missing weights through `-hf`. Use a permitted reference, check current resources, then listen to your actual result and fill in the blank record. The narrator voices of the new films (MOSS s44 and s77) are synthetic, not private recordings, and not Qwen output. No model weights, runtime or reference voice is included.
+Unser Windows-Lauf auf dem EVO-X2 verwendete eine bereits funktionierende AMD-PyTorch-Umgebung. Die Anleitung verlinkt den passenden Installationsweg. Der frühere Qwen-CPU-Weg bleibt dokumentiert; eine private Personenaufnahme gehört nicht zum Paket.
