@@ -1,5 +1,10 @@
 # Qwen3-TTS: eine eigene Stimme lokal vorbereiten
 
+## New: MOSS local English voice tutorial (11 October 2026)
+
+[Actual MOSS helper and English/German guide](MOSS/README.md) · [MOSS companion ZIP](downloads/MOSS.zip). Fixed own-reference workflow, pinned model revisions, English comparison with Qwen3-TTS, and measured production settings. Existing Qwen packages below are preserved.
+
+
 Dein erster kleiner Sprachversuch: eine erlaubte Referenzaufnahme wählen, einen vollständigen Satz vorbereiten und die tatsächliche WAV-Ausgabe mit einem Hörprotokoll prüfen. Das Lernpaket beschreibt unseren dokumentierten GGUF/CPU-Weg auf Windows. Ein neuer Clean-Install- oder Qwen-Lauf wird hier nicht behauptet.
 
 ## Download / Downloads
